@@ -1,0 +1,178 @@
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* This is the header information */
+
+header {
+    background-color: #FFF;
+    padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #3454d1;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -2px;
+    text-align: left;
+}
+header p {
+    margin: 0;
+    color: #88ADE5;;
+    font-size: 25px;
+    letter-spacing: .5px;
+    text-align: left;
+}
+
+/* This is the Navigation section*/
+
+nav {
+    background-color: #3b413c;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding:0 2vw;
+    margin: 0;
+    display:flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+    display: block;
+    padding: 1rem 4rem;
+}
+
+nav li.active a {
+    background-color: #E4EAE4;
+    color: #3454d1;
+    text-decoration: underline;
+    text-align: center;
+}
+nav a:hover {
+    color: #88ADE5;
+}
+
+
+/* Stuff for the main tag */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #3454d1;
+}
+
+main h2 {
+    color: #3b413c;
+    margin-bottom: .2rem;
+}
+
+main h3 {
+    color: #3b413c;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #3b413c;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #E4EAE4;
+}
+
+main dl dt {
+    color: #3b413f;
+    font-weight: 400;
+
+}
+main dl dd {
+    color:#3b413c;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type:disc;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    color: #3b413f;
+    font-style: normal;
+    background-color: #E4EAE4;
+    padding: .5rem;
+    width: 15rem;
+    border: 5px solid #3b413c;
+    border-radius: .5rem;
+    margin-top: 2rem;
+}
+
+main a {
+    color:#88ADE5;
+}
+
+main a:hover {
+    color: #3454d1;
+}
+
+
+figure.wrapped {
+    width; 30%;
+    margin; 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem; 
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery figure{
+    margin: 5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #3b413f
+}
+
+
+
+
+
+
+
+
+
+/* Footer stuff here */
+
+footer {
+    background-color: #3b413c;
+    text-align: center;
+    color: #FFF;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a {
+    color: #88ADE5;
+}
