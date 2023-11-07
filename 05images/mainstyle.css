@@ -127,8 +127,8 @@ main a:hover {
 
 
 figure.wrapped {
-    max-width; 30%;
-    margin; 0 0 0 2%;
+    width: 30%;
+    margin: 0 0 0 2%;
     float: right;
 }
 figure.wrapped img {
