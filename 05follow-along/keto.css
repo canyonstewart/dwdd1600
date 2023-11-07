@@ -101,26 +101,28 @@ main a:hover {
 }
 
 figure.wrapped {
-width: 30%;
-margin: 0 0 0 2%;
-float: right;
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
 }
+
 figure.wrapped img {
     width: 100%;
     height: auto;
 }
+
 figure.wrapped figcaption {
     text-align: center;
-    font-size: .75rem; 
+    font-size: .75rem;
 }
 
 div.gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 
-div.gallery figure{
-    margin: .5rem 2% 0 0;
+div.gallery figure {
+    margin: .5rem 2% 0 0;  
 }
 
 div.gallery figcaption {
@@ -128,11 +130,6 @@ div.gallery figcaption {
     font-size: .8rem;
     color: #b64e11
 }
-
-
-
-
-
 
 /* footer stuff here */
 footer {
